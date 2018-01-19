@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		777EA0FD2011B523000A51D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA0FC2011B523000A51D6 /* AppDelegate.swift */; };
-		777EA0FF2011B523000A51D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA0FE2011B523000A51D6 /* ViewController.swift */; };
-		777EA1022011B523000A51D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777EA1002011B523000A51D6 /* Main.storyboard */; };
+		4157613C3DFFC913AFF81B33 /* Pods_StackOverflowQuestions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEAA1FB3E11C4FE6E1C47C9 /* Pods_StackOverflowQuestions.framework */; };
+		777EA0FD2011B523000A51D6 /* SOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA0FC2011B523000A51D6 /* SOAppDelegate.swift */; };
 		777EA1042011B523000A51D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777EA1032011B523000A51D6 /* Assets.xcassets */; };
 		777EA1072011B523000A51D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777EA1052011B523000A51D6 /* LaunchScreen.storyboard */; };
+		777EA1122011B7F3000A51D6 /* SONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1112011B7F3000A51D6 /* SONavigationController.swift */; };
+		777EA1192011B898000A51D6 /* SOQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1172011B898000A51D6 /* SOQuestionsViewController.swift */; };
+		777EA11A2011B898000A51D6 /* SOQuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777EA1182011B898000A51D6 /* SOQuestionsViewController.xib */; };
+		777EA11D2011BD8F000A51D6 /* SOQuestionsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA11C2011BD8F000A51D6 /* SOQuestionsCollectionView.swift */; };
+		777EA1212011BE2F000A51D6 /* SOQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA11F2011BE2F000A51D6 /* SOQuestionCollectionViewCell.swift */; };
+		777EA1222011BE2F000A51D6 /* SOQuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777EA1202011BE2F000A51D6 /* SOQuestionCollectionViewCell.xib */; };
+		777EA1242011C7CC000A51D6 /* SOQuestionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1232011C7CC000A51D6 /* SOQuestionsResponse.swift */; };
+		777EA1262011C837000A51D6 /* SOQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1252011C837000A51D6 /* SOQuestion.swift */; };
+		777EA1282011C9E0000A51D6 /* SOQuestionOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1272011C9E0000A51D6 /* SOQuestionOwner.swift */; };
+		777EA12A2011CA8C000A51D6 /* SOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA1292011CA8C000A51D6 /* SOService.swift */; };
+		777EA12C2011CB18000A51D6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 777EA12B2011CB18000A51D6 /* Podfile */; };
+		777EA12E20125454000A51D6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777EA12D20125454000A51D6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FEBB04FA9F7C04BB6D2E4D6 /* Pods-StackOverflowQuestions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowQuestions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowQuestions/Pods-StackOverflowQuestions.debug.xcconfig"; sourceTree = "<group>"; };
 		777EA0F92011B523000A51D6 /* StackOverflowQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		777EA0FC2011B523000A51D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		777EA0FE2011B523000A51D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		777EA1012011B523000A51D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777EA0FC2011B523000A51D6 /* SOAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOAppDelegate.swift; sourceTree = "<group>"; };
 		777EA1032011B523000A51D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777EA1062011B523000A51D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		777EA1082011B523000A51D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777EA1112011B7F3000A51D6 /* SONavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SONavigationController.swift; sourceTree = "<group>"; };
+		777EA1172011B898000A51D6 /* SOQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestionsViewController.swift; sourceTree = "<group>"; };
+		777EA1182011B898000A51D6 /* SOQuestionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SOQuestionsViewController.xib; sourceTree = "<group>"; };
+		777EA11C2011BD8F000A51D6 /* SOQuestionsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestionsCollectionView.swift; sourceTree = "<group>"; };
+		777EA11F2011BE2F000A51D6 /* SOQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		777EA1202011BE2F000A51D6 /* SOQuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SOQuestionCollectionViewCell.xib; sourceTree = "<group>"; };
+		777EA1232011C7CC000A51D6 /* SOQuestionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestionsResponse.swift; sourceTree = "<group>"; };
+		777EA1252011C837000A51D6 /* SOQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestion.swift; sourceTree = "<group>"; };
+		777EA1272011C9E0000A51D6 /* SOQuestionOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOQuestionOwner.swift; sourceTree = "<group>"; };
+		777EA1292011CA8C000A51D6 /* SOService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOService.swift; sourceTree = "<group>"; };
+		777EA12B2011CB18000A51D6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		777EA12D20125454000A51D6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		CC714B7304EFAA4A98F17BEA /* Pods-StackOverflowQuestions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowQuestions.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowQuestions/Pods-StackOverflowQuestions.release.xcconfig"; sourceTree = "<group>"; };
+		EAEAA1FB3E11C4FE6E1C47C9 /* Pods_StackOverflowQuestions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackOverflowQuestions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4157613C3DFFC913AFF81B33 /* Pods_StackOverflowQuestions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		309BD9B4AA22149D0AE58E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAA1FB3E11C4FE6E1C47C9 /* Pods_StackOverflowQuestions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		777EA0F02011B523000A51D6 = {
 			isa = PBXGroup;
 			children = (
+				777EA12B2011CB18000A51D6 /* Podfile */,
 				777EA0FB2011B523000A51D6 /* StackOverflowQuestions */,
 				777EA0FA2011B523000A51D6 /* Products */,
+				A3BEFB663AF1613085A3BEA1 /* Pods */,
+				309BD9B4AA22149D0AE58E32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,72 @@
 		777EA0FB2011B523000A51D6 /* StackOverflowQuestions */ = {
 			isa = PBXGroup;
 			children = (
-				777EA0FC2011B523000A51D6 /* AppDelegate.swift */,
-				777EA0FE2011B523000A51D6 /* ViewController.swift */,
-				777EA1002011B523000A51D6 /* Main.storyboard */,
+				777EA1102011B54E000A51D6 /* Service */,
+				777EA10E2011B541000A51D6 /* Models */,
+				777EA10F2011B54A000A51D6 /* Views */,
+				777EA0FC2011B523000A51D6 /* SOAppDelegate.swift */,
+				777EA1112011B7F3000A51D6 /* SONavigationController.swift */,
+				777EA12D20125454000A51D6 /* StringExtensions.swift */,
 				777EA1032011B523000A51D6 /* Assets.xcassets */,
 				777EA1052011B523000A51D6 /* LaunchScreen.storyboard */,
 				777EA1082011B523000A51D6 /* Info.plist */,
 			);
 			path = StackOverflowQuestions;
+			sourceTree = "<group>";
+		};
+		777EA10E2011B541000A51D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				777EA1232011C7CC000A51D6 /* SOQuestionsResponse.swift */,
+				777EA1252011C837000A51D6 /* SOQuestion.swift */,
+				777EA1272011C9E0000A51D6 /* SOQuestionOwner.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		777EA10F2011B54A000A51D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				777EA1172011B898000A51D6 /* SOQuestionsViewController.swift */,
+				777EA1182011B898000A51D6 /* SOQuestionsViewController.xib */,
+				777EA11B2011BD69000A51D6 /* CollectionView */,
+				777EA11E2011BE18000A51D6 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		777EA1102011B54E000A51D6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				777EA1292011CA8C000A51D6 /* SOService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		777EA11B2011BD69000A51D6 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				777EA11C2011BD8F000A51D6 /* SOQuestionsCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		777EA11E2011BE18000A51D6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				777EA11F2011BE2F000A51D6 /* SOQuestionCollectionViewCell.swift */,
+				777EA1202011BE2F000A51D6 /* SOQuestionCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A3BEFB663AF1613085A3BEA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBB04FA9F7C04BB6D2E4D6 /* Pods-StackOverflowQuestions.debug.xcconfig */,
+				CC714B7304EFAA4A98F17BEA /* Pods-StackOverflowQuestions.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 777EA10B2011B523000A51D6 /* Build configuration list for PBXNativeTarget "StackOverflowQuestions" */;
 			buildPhases = (
+				D7703AC0F5125E7AB2E8B337 /* [CP] Check Pods Manifest.lock */,
 				777EA0F52011B523000A51D6 /* Sources */,
 				777EA0F62011B523000A51D6 /* Frameworks */,
 				777EA0F72011B523000A51D6 /* Resources */,
+				26A5368515C6AB5CA9F766FD /* [CP] Embed Pods Frameworks */,
+				F40EE4A10C2C9C5BBF6C4536 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +220,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777EA1222011BE2F000A51D6 /* SOQuestionCollectionViewCell.xib in Resources */,
 				777EA1072011B523000A51D6 /* LaunchScreen.storyboard in Resources */,
+				777EA12C2011CB18000A51D6 /* Podfile in Resources */,
 				777EA1042011B523000A51D6 /* Assets.xcassets in Resources */,
-				777EA1022011B523000A51D6 /* Main.storyboard in Resources */,
+				777EA11A2011B898000A51D6 /* SOQuestionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26A5368515C6AB5CA9F766FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowQuestions/Pods-StackOverflowQuestions-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowQuestions/Pods-StackOverflowQuestions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7703AC0F5125E7AB2E8B337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StackOverflowQuestions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40EE4A10C2C9C5BBF6C4536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowQuestions/Pods-StackOverflowQuestions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		777EA0F52011B523000A51D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777EA0FF2011B523000A51D6 /* ViewController.swift in Sources */,
-				777EA0FD2011B523000A51D6 /* AppDelegate.swift in Sources */,
+				777EA12A2011CA8C000A51D6 /* SOService.swift in Sources */,
+				777EA1192011B898000A51D6 /* SOQuestionsViewController.swift in Sources */,
+				777EA12E20125454000A51D6 /* StringExtensions.swift in Sources */,
+				777EA0FD2011B523000A51D6 /* SOAppDelegate.swift in Sources */,
+				777EA1262011C837000A51D6 /* SOQuestion.swift in Sources */,
+				777EA11D2011BD8F000A51D6 /* SOQuestionsCollectionView.swift in Sources */,
+				777EA1122011B7F3000A51D6 /* SONavigationController.swift in Sources */,
+				777EA1282011C9E0000A51D6 /* SOQuestionOwner.swift in Sources */,
+				777EA1242011C7CC000A51D6 /* SOQuestionsResponse.swift in Sources */,
+				777EA1212011BE2F000A51D6 /* SOQuestionCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		777EA1002011B523000A51D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				777EA1012011B523000A51D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		777EA1052011B523000A51D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +429,35 @@
 		};
 		777EA10C2011B523000A51D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEBB04FA9F7C04BB6D2E4D6 /* Pods-StackOverflowQuestions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UJB5AHZ8FR;
 				INFOPLIST_FILE = StackOverflowQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdamAke.StackOverflowQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		777EA10D2011B523000A51D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC714B7304EFAA4A98F17BEA /* Pods-StackOverflowQuestions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UJB5AHZ8FR;
 				INFOPLIST_FILE = StackOverflowQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdamAke.StackOverflowQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
