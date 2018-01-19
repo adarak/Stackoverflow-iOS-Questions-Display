@@ -7,3 +7,5 @@ To run:
 2. Navigate to the project folder in terminal. 
 3. Run 'pod install' to get Alamofire, AlamofireImage, and PromiseKit. 
 4. Open and run the project with the .xcworkspace file
+
+Pods used: Alamofire, AlamofireImage, and PromiseKit
